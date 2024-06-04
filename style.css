@@ -1,0 +1,51 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+ 
+.d-sm-flex {
+    margin-left: 25%;
+    text-align: center;
+}
+
+.ms-5 {
+    margin-left: 4rem;
+}
+
+.mb-4 {
+    margin-bottom: 2.8rem !important;
+}
+
+.container .ms-5 {
+    margin-left: 0rem !important;
+}
+
+/* .img-fluid {
+    width: 100%;
+    height: auto;
+}  */
+
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+
+    .babysitting {
+        margin-bottom: 29px;
+    }
+
+    .excursions {
+        margin-bottom: 37px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+    .container .ms-5 {
+            margin-left: 0rem !important;
+        }
+}
